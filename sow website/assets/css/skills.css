@@ -1,0 +1,14 @@
+.overlay-skills{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../imgs/header-jobs.png');
+}
+
+/*.li-list-categorie li:hover{
+    /* transition:all 2s ease; */
+    /* background-color: rgb(205, 255, 228)!important;
+    color: black!important; */
+/* } */
+

@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.separador{
+  width: 100%;
+  height: 25vh;
+}
+
+.navbar-toggler-icon {
+  color: #fff; 
+}
+.nav-item a{
+    color: #fff !important;
+}
+.faq  button{
+  background-color: rgb(210, 215, 219);
+  padding: 10px;
+  width: 100%;
+}
+
+.faq  p{
+  background-color: #fbdcd8;
+  padding: 10px;
+  width: 100%;
+}
+
+.section-title{
+    font-size: x-large;
+    padding-bottom: 40px;
+}
+#contact{
+  color: white;
+  background-color: black;
+  padding-top: 60px;
+}
+#contact h6 button{
+    text-decoration: none;
+    border: none;
+    color: #cc5247;
+    background-color: transparent;
+}
+
+#contact h6 button a{
+  text-decoration: none;
+  border: none;
+  color: #cc5247;
+  background-color: transparent;
+}
+
+.email{
+  text-decoration: none;
+  color: #cc5247;
+}
+/* ANIMAÇÃO */
+
+@keyframes slideRightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .animation-div {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: slideRightToLeft;
+  }
+  
+  .animation-div.reverse-animation {
+    animation-name: slideLeftToRight;
+  }
+  
+
+  /* FIM DA ANIMAÇÃO */
+.overlay{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../imgs/header.jpeg');
+}
+
+.overlay h1{
+    padding-top: 100px;
+}
+.transparent {
+    background-color: transparent;
+  }
+  
+.btn-more{
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  color: white;
+  opacity: 0.5;
+  transition: opacity 0.8s ease; 
+}
+
+.btn-more:hover{
+  background-color: #ED5345;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  color: white;
+  opacity: 1;
+}
+
+.card-feedback {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+  transition: transform 0.8s ease;
+}
+
+.card-feedback:hover {
+  transform: scale(1.1);
+}
+
+.background-about-us{
+  background-image:  url('../imgs/background-students.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  
+}
+
+.btn-sow{
+  background-color: #ED5345;
+  color: white;
+  text-decoration: none;
+  border-radius: 36px;
+  padding: 8px;
+  border: none;
+  
+}
+.btn-sow:hover{
+  background-color: #cc5247;
+  color: white;
+  text-decoration: none;
+  border-radius: 36px;
+  padding: 8px;
+  border: none;
+}
+
+.btn-sow a{
+  background-color: #ED5345;
+  color: white;
+  text-decoration: none;
+  border-radius: 36px;
+  padding: 8px;
+  border: none;
+}
+
+.btn-sow a:hover{
+  background-color: #cc5247;
+  color: white;
+  text-decoration: none;
+  border-radius: 36px;
+  padding: 8px;
+  border: none;
+}
+
+.about-text{
+  text-shadow: 1px 1px 4px black;
+}
+
+.btn-login{
+  background-color: transparent !important;
+  border-color: 2px orange !important;
+}
+
+.btn-login:hover{
+  background-color: #ED5345 !important;
+  border-color: 2px orange !important;
+  color: white !important;
+}
+
+#sobre div h6{
+  color: #ED5345 !important;
+}
+
+/* Proposta */
+.message {
+  margin-bottom: 10px;
+}
+.sender {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+.receiver {
+  background-color: #e2e2e2;
+  padding: 10px;
+}
